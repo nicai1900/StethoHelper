@@ -6,10 +6,16 @@ import com.facebook.stetho.Stetho
 class StethoHelper {
 
     companion object {
-        fun install(context: Context) {
-            Stetho.initializeWithDefaults(context.applicationContext)
 
+        @JvmStatic
+        fun install(context: Context) {
+            Stetho.initialize(Stetho.newInitializerBuilder(context)
+                .enableDumpapp(Stetho.defaultDumperPluginsProvider(context))
+                .enableWebKitInspector(Stetho.defaultInspectorModulesProvider(context))
+                .build())
         }
+
+
     }
 
 }
