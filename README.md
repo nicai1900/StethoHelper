@@ -15,10 +15,10 @@ In your `build.gradle`:
 dependencies {
 
     // debug
-    debugImplementation 'com.github.nicai1900.StethoHelper:stethohelper:v0.0.5'
+    debugImplementation 'com.github.nicai1900.StethoHelper:stethohelper:v0.0.6'
     
     // release no op
-    releaseImplementation 'com.github.nicai1900.StethoHelper:stethohelper-no-op:v0.0.5'
+    releaseImplementation 'com.github.nicai1900.StethoHelper:stethohelper-no-op:v0.0.6'
 }
 ```
 
