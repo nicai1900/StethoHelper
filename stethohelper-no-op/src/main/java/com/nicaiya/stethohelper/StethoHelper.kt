@@ -7,8 +7,7 @@ class StethoHelper {
     companion object {
 
         @JvmStatic
-        fun init(context: Context) {
-
+        fun install(context: Context) {
         }
     }
 }
