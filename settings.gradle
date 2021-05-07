@@ -1,1 +1,3 @@
-include ':stethohelper-sample', ':stethohelper', ':stethohelper-no-op'
+include ':stethohelper-sample'
+include ':stethohelper'
+include ':stethohelper-no-op'
